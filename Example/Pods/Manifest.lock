@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - FMDBMigrationManager (2.0.0):
+    - FMDB (~> 2.7)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FMDBMigrationManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+    - FMDB
+
+EXTERNAL SOURCES:
+  FMDBMigrationManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  FMDBMigrationManager: d5a09b572c3ff9cb1e37b3e280b904f78fec7815
+
+PODFILE CHECKSUM: e4721d2aaf092ed0e39b981a69871ea30f3db041
+
+COCOAPODS: 1.9.0

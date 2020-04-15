@@ -1,0 +1,26 @@
+{
+  "name": "FMDBMigrationManager",
+  "version": "2.0.0",
+  "summary": "FMDB Migration Manager.",
+  "homepage": "https://github.com/lyeah-ios/FMDBMigrationManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zisu": "zisulwl@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lyeah-ios/FMDBMigrationManager.git",
+    "tag": "2.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FMDBMigrationManager/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+      "~> 2.7"
+    ]
+  }
+}
